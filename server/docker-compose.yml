@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  server:
+    container_name: server
+    image: server:1.0.0
+    build: .
+    ports:
+      - 3001:3001
+      
